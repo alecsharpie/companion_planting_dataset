@@ -3,25 +3,25 @@
 <br>
 
 ## JSON format
-### Variables (columns):
+### Keys:
 #### type 
-- 4 categories: Vegetables/Fruit/Herbs/Flowers
+- 4 categories: Vegetables/Fruit/Herbs/Flowers (string)
 #### common_name 
-- common name of the plant
+- common name of the plant (string)
 #### code 
-- stripped common name of the plant, acts as primary key for matches
+- stripped common name of the plant, acts as primary key for matches (string)
 #### scientific_name
-- scientific name of the plant
-#### helps (list)
-- a list of plants helped by primary key plant
-#### helped_by (list)
-- a list of plants that help the primary key plant
-#### avoid (list)
-- a list of plants that harm the primary key plant
-#### attracts (list)
-- a list of animals the primary key plant attracts
-#### repels_distracts (list)
-- a list of animals helped by primary key plant
+- scientific name of the plant (string)
+#### helps
+- a list of plants helped by primary key plant (strings)
+#### helped_by
+- a list of plants that help the primary key plant (strings)
+#### avoid
+- a list of plants that harm the primary key plant (strings)
+#### attracts
+- a list of animals the primary key plant attracts (strings)
+#### repels_distracts
+- a list of animals helped by primary key plant (strings)
 
 <br>
 
@@ -33,4 +33,4 @@
  - Relationships without citations were removed
  - Punctuation was removed 
  - Text was split, rearranged, and removed
-### - Non alphabetic characters were removed 
+ - Non alphabetic characters were removed 
