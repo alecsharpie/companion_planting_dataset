@@ -1,6 +1,7 @@
 # Companion planting data 
 
-</br>
+<br>
+
 ## JSON format
 ### Variables (columns):
 #### type 
@@ -22,14 +23,14 @@
 #### repels_distracts (list)
 - a list of animals helped by primary key plant
 
-</br>
+<br>
 
-## The data was scraped from Wikipedia 
-### <a href="https://en.wikipedia.org/wiki/List_of_companion_plants">Wikipedia: List of Companion Plants</a>
+### The data was scraped from Wikipedia 
+<a href="https://en.wikipedia.org/wiki/List_of_companion_plants">Wikipedia: List of Companion Plants</a>
 
-## The data was manipulated in the following ways:
-### - Relationships not matching a primary key plant were removed (for helps/helped_by/attracts columns)
-### - Relationships without citations were removed
-### - Punctuation was removed 
-### - Text was split, rearranged, and removed
+### The data was manipulated in the following ways:
+ - Relationships not matching a primary key plant were removed (for helps/helped_by/attracts columns)
+ - Relationships without citations were removed
+ - Punctuation was removed 
+ - Text was split, rearranged, and removed
 ### - Non alphabetic characters were removed 
