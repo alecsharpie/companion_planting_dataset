@@ -2,6 +2,17 @@
 
 <br>
 
+### The data was scraped from Wikipedia 
+<a href="https://en.wikipedia.org/wiki/List_of_companion_plants">Wikipedia: List of Companion Plants</a>
+
+### The data was manipulated in the following ways:
+ - Relationships not matching a primary key plant were removed (for helps/helped_by/attracts columns)
+ - Relationships without citations were removed
+ - Text was split, rearranged, and removed
+ - Non alphabetic characters were removed 
+ 
+<br>
+
 ## JSON format
 ### Keys:
 #### type 
@@ -22,15 +33,3 @@
 - a list of animals the primary key plant attracts (strings)
 #### repels_distracts
 - a list of animals helped by primary key plant (strings)
-
-<br>
-
-### The data was scraped from Wikipedia 
-<a href="https://en.wikipedia.org/wiki/List_of_companion_plants">Wikipedia: List of Companion Plants</a>
-
-### The data was manipulated in the following ways:
- - Relationships not matching a primary key plant were removed (for helps/helped_by/attracts columns)
- - Relationships without citations were removed
- - Punctuation was removed 
- - Text was split, rearranged, and removed
- - Non alphabetic characters were removed 
