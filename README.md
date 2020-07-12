@@ -1,4 +1,4 @@
-# Companion planting data 
+# Companion Planting Dataset
 
 ### The data was scraped from Wikipedia 
 <a href="https://en.wikipedia.org/wiki/List_of_companion_plants">Wikipedia: List of Companion Plants</a>
